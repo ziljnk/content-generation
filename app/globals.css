@@ -89,6 +89,22 @@ h1, h2, h3, h4, h5, h6 {
     inset -2px -2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
+.clay-button-ghost {
+  background: transparent;
+  color: var(--foreground);
+  box-shadow: none;
+}
+
+.clay-button-ghost:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.clay-button-ghost:active {
+  transform: scale(0.98);
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
 .clay-input {
   background: #eef2f6;
   border-radius: 1rem;
